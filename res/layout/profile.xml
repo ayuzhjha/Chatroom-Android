@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear1" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear26" android:background="#ff3f51b5" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageview4" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ios_arrow_back" android:scaleType="centerInside" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff616161" android:gravity="center" android:id="@id/textview11" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Profile" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/acceptor" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/acceptor1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/vscroll3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linear13" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linear15" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear28" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="horizontal" android:id="@id/linear14" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@id/profile_img_main" android:layout_width="130.0dip" android:layout_height="130.0dip" android:src="@drawable/default_image" android:scaleType="centerCrop" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear16" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0sp" android:textColor="#ff757575" android:id="@id/textview4" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff616161" android:id="@id/profile_username" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear17" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear25" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="12.0sp" android:textColor="#ff757575" android:id="@id/textview9" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Account Email" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff616161" android:id="@id/account_email" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear24" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear18" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0sp" android:textColor="#ff757575" android:id="@id/textview7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Biography" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ff616161" android:id="@id/profile_bio" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear19" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear27" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="16.0sp" android:textColor="#ff757575" android:id="@id/textview12" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Logout" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear21" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/imageview2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/mode_edit" android:scaleType="centerInside" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/linear20" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textSize="16.0sp" android:textStyle="bold|italic" android:textColor="#ff3f51b5" android:id="@id/textview13" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Made By AJ Boy" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/profile_edit" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/vscroll2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linear6" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linear8" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear29" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/linear7" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@id/profile_img_1" android:layout_width="130.0dip" android:layout_height="130.0dip" android:src="@drawable/ic_account_circle_white" android:scaleType="centerInside" />
+                                <ImageView android:id="@id/pick" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/camera" android:scaleType="centerInside" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear9" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0sp" android:textColor="#ff616161" android:id="@id/textview1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username :" />
+                            <EditText android:textSize="16.0sp" android:textColor="#ff000000" android:textColorHint="#ff607d8b" android:id="@id/username_edit" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear10" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear11" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0sp" android:textColor="#ff616161" android:id="@id/textview2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Biography" />
+                            <EditText android:textSize="16.0sp" android:textColor="#ff000000" android:textColorHint="#ff607d8b" android:id="@id/biography_edit" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear12" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/save" android:background="#ff616161" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/textview3" android:background="@android:color/transparent" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save Changes" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear22" android:padding="8.0dip" android:layout_width="4.0dip" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/linear23" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/imageview3" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/xxx" android:scaleType="centerInside" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
