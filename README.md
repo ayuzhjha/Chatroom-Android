@@ -6,6 +6,10 @@
 
 A modern Android chat application that enables real-time messaging and file sharing between users. Built with Firebase for real-time data synchronization and secure authentication.
 
+## Installation
+
+Download the latest APK from the [Releases](../../releases) section and install it on your Android device.
+
 ## Screenshots
 
 <p align="center">
